@@ -1,6 +1,7 @@
 # pokenext
 
-Back in February 2018, hacked a "Pokédex" clone in less than 12 hours, working together with @rmontanodev
+Back in February 2018, hacked a "Pokédex" clone in less than 12 hours, working together with [@rmontanodev](https://github.com/rmontanodev)
+
 It was part of a small exercise to learn about API requests, and displaying them in a beautiful, simple frontend.
 
 Features:
