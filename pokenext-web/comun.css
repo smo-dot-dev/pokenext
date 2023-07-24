@@ -1,0 +1,30 @@
+#logo{
+	float: left;
+	width: 8em;
+	margin-top:-0.5em;
+}
+@font-face {
+  font-family: 'pokémon';
+  src: url('fonts/pokefont.ttf') format('truetype');
+}  
+body {
+	max-width: 100%;
+	margin: 0 auto;
+	background-image: url("img/fondo.jpg");
+    background-repeat: repeat;
+    font-family: pokémon;
+    font-size:16px;
+}
+
+
+
+#container{
+	margin: 0 auto;
+}
+#columna{
+	text-align: center;
+	float: none;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 25px;
+}

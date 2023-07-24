@@ -1,0 +1,47 @@
+#entrada{
+  padding-top:5em;
+  height:10em;
+  width:20em;
+  margin:0 auto;
+}
+#selectores,#tipos{
+	display: flex;
+    justify-content: center;
+}
+#selector_normal,#selector_shiny,#selector_normal_b,#selector_shiny_b{
+	margin-right: 5em;
+	margin-bottom:2em;
+	float:left;
+	position: relative;
+    width: 120px;
+    height: 153px;
+    background-image: url(img/poke_selector.png);
+    background-position: center;
+    background-size: cover; 
+}
+
+#selector_normal img,#selector_shiny img,#selector_normal_b img,#selector_shiny_b img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto; 
+}
+
+#selector_normal_b img,#selector_shiny_b img{
+	width: 90%;
+}
+#tipos{
+	margin:0 auto;
+}
+#tipo1,#tipo2{
+	float:left;
+	margin-right: 5em;
+	margin-bottom:2em;
+}
+#stats_panel,#moves_panel,#abilities_panel{
+	width:50%;
+	margin:0 auto;
+}

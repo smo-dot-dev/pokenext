@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PokeNEXT</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="entrada">
+    	<div class="input-group">
+      <input type="text" class="form-control" id="poke_input" value="Pikachu">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" id="poke_button">Buscar</button>
+      </span>
+      </div><!-- /input-group -->
+    </div>
+
+    <div id="selectores">
+      <div id="selector_normal">
+      </div>
+      <div id="selector_shiny">
+      </div>
+    </div>
+    <div id="selectores">
+      <div id="selector_normal_b">
+
+      </div>
+      <div id="selector_shiny_b">
+
+      </div>
+    </div>
+
+    <div id="tipos">
+      <div id="tipo1">
+        
+      </div>
+      <div id="tipo2">
+        
+      </div>
+    </div>
+
+    <div id="stats_panel" class="panel panel-default">
+    <!-- Default panel contents -->
+      <div class="panel-heading">Stats</div>
+      <!-- Table -->
+        <table id="stats_table" class="table">
+        </table>
+    </div>
+    <br>
+    <div id="abilities_panel" class="panel panel-default">
+    <!-- Default panel contents -->
+      <div class="panel-heading">Passive abilities</div>
+      <!-- Table -->
+        <table id="abilities_table" class="table">
+        </table>
+    </div>
+    <br>
+    <div id="moves_panel" class="panel panel-default">
+    <!-- Default panel contents -->
+      <div class="panel-heading">Moves</div>
+      <!-- Table -->
+        <table id="moves_table" class="table">
+        </table>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pokemones.js"></script>
+    <script src="js/main.js"></script>
+  </body>
